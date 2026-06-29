@@ -1,7 +1,7 @@
 [project]
 name = "state-capacity-tinyrnn"
-version = "0.1.0"
-description = "Full-run reconstruction of machine-defined state and capacity coordinates using compact recurrent neural networks."
+version = "1.0.0"
+description = "Reproducible TinyRNN pipeline for machine-defined state and capacity profiles in human cognition."
 requires-python = ">=3.10"
 dependencies = [
   "numpy",
@@ -13,8 +13,15 @@ dependencies = [
   "seaborn",
   "pyarrow",
   "torch",
+  "mne",
+  "mne-nirs",
+  "pyedflib",
+  "neurokit2",
+  "openpyxl",
+  "python-docx",
+  "xlsxwriter",
+  "pyyaml",
 ]
 
 [tool.setuptools.packages.find]
 where = ["src"]
-
