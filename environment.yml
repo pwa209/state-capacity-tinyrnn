@@ -12,5 +12,13 @@ dependencies:
   - seaborn
   - pyarrow
   - pytorch
+  - mne
+  - openpyxl
+  - pyyaml
   - pip
-
+  - pip:
+      - mne-nirs
+      - pyedflib
+      - neurokit2
+      - python-docx
+      - xlsxwriter
