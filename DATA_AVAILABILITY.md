@@ -13,7 +13,12 @@ This repository contains code only. Raw public datasets are intentionally not co
 
 ## Derived Data Package
 
-The derived-data/source-data package should be deposited separately on Zenodo or OSF. It should include:
+The derived-data/source-data package is deposited on Zenodo:
+
+- Record: https://zenodo.org/records/21028379
+- DOI: 10.5281/zenodo.21028379
+
+The archive contains the de-identified and reproducibility-ready outputs needed to audit and redraw the study results, including:
 
 - Harmonised processed event tables.
 - State and capacity coordinate tables.
@@ -24,8 +29,4 @@ The derived-data/source-data package should be deposited separately on Zenodo or
 - Figure source-data files and generated figures.
 - Exclusion, reconstruction, manifest and claim-audit records.
 
-The current local derived-data ZIP prepared for Zenodo is:
-
-`state_capacity_tinyrnn_zenodo_derived_data_package.zip`
-
-After upload, insert the Zenodo/OSF DOI into the manuscript Data availability section.
+Raw public datasets are not redistributed in this archive and should be obtained from the original sources listed above.
