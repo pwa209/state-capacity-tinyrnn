@@ -1,0 +1,22 @@
+{
+  "title": "Machine-defined state and capacity profiles in human cognition: TinyRNN reproducibility code",
+  "upload_type": "software",
+  "description": "Reproducibility code for a staged TinyRNN analysis pipeline defining machine-derived state and capacity profiles in public behavioural, EEG, fNIRS and ECG datasets. Raw data are not redistributed in this software archive and should be obtained from the original providers listed in DATA_AVAILABILITY.md.",
+  "creators": [
+    {
+      "name": "Wang, Peng"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "recurrent neural network",
+    "TinyRNN",
+    "cognitive state",
+    "cognitive capacity",
+    "EEG",
+    "fNIRS",
+    "OpenNeuro",
+    "reproducibility"
+  ],
+  "access_right": "open"
+}
