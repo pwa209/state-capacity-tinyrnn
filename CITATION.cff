@@ -1,11 +1,11 @@
 cff-version: 1.2.0
-        title: "Machine-defined state and capacity profiles in human cognition"
-        message: "If you use this code, please cite the manuscript and archived software release."
-        type: software
-        authors:
-          - family-names: "Wang"
-            given-names: "Peng"
-        version: "1.0.0"
-        date-released: "2026-06-29"
-        license: "MIT"
-        repository-code: "https://github.com/pwa209/state-capacity-tinyrnn"
+title: "Machine-defined state and capacity profiles in human cognition"
+message: "If you use this code, please cite the manuscript and archived software release."
+type: software
+authors:
+  - family-names: "Wang"
+    given-names: "Peng"
+version: "1.0.0"
+date-released: "2026-06-29"
+license: "MIT"
+repository-code: "https://github.com/pwa209/state-capacity-tinyrnn"
