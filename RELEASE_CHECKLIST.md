@@ -13,14 +13,14 @@ Use this checklist before final manuscript submission.
 
 ## Zenodo derived-data release
 
-- [ ] Upload `state_capacity_tinyrnn_zenodo_derived_data_package.zip` as a Zenodo Dataset record.
-- [ ] Use a clear title, for example: `Derived data and source tables for machine-defined state and capacity profiles in human cognition`.
-- [ ] Include raw-data provenance in the Zenodo description.
-- [ ] Confirm raw public datasets are not redistributed in the derived-data archive.
-- [ ] Record the Zenodo derived-data DOI.
+- [x] Upload `state_capacity_tinyrnn_zenodo_derived_data_package.zip` as a Zenodo Dataset record.
+- [x] Use a clear title, for example: `Derived data and source tables for machine-defined state and capacity profiles in human cognition`.
+- [x] Include raw-data provenance in the Zenodo description.
+- [x] Confirm raw public datasets are not redistributed in the derived-data archive.
+- [x] Record the Zenodo derived-data DOI: 10.5281/zenodo.21028379.
 
 ## Manuscript update
 
-- [ ] Replace provisional Data availability text with the derived-data DOI.
+- [x] Replace provisional Data availability text with the derived-data DOI.
 - [ ] Replace provisional Code availability text with the GitHub URL, release tag, commit hash and Zenodo software DOI.
 - [ ] Confirm the manuscript does not contain `[PLACEHOLDER]`, `[GitHub URL]`, `[Zenodo DOI]`, `[hash]` or `vX.X.X`.
