@@ -13,7 +13,9 @@ This repository contains the reproducibility code for the study **Machine-define
 
 ## What Is Not Stored Here
 
-Raw public datasets are intentionally not committed. They are large and should be downloaded from the original providers listed in `DATA_AVAILABILITY.md`. Derived tables and source-data files are deposited on Zenodo at https://zenodo.org/records/21028379, DOI 10.5281/zenodo.21028379.
+Raw public datasets are intentionally not committed. They are large, externally maintained and should be downloaded from their original repositories/accessions listed in `DATA_AVAILABILITY.md`: COG-BCI Zenodo record 6874129, TU Berlin simultaneous EEG-NIRS, OpenNeuro ds007554 v1.0.0 and OpenNeuro ds005508 v1.0.1.
+
+Derived tables and source-data files are deposited on Zenodo at https://zenodo.org/records/21028379, DOI 10.5281/zenodo.21028379.
 
 ## Repository Layout
 
