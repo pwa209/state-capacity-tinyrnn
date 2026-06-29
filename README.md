@@ -23,7 +23,6 @@ Raw public datasets are intentionally not committed. They are large and should b
 - `docs/`: protocol and step-pack documentation.
 - `tests/`: reproducibility guard tests.
 - `environment.yml`, `pyproject.toml`: environment definitions.
-- `MANIFEST_SHA256.csv`: package manifest for the uploaded code snapshot.
 
 ## Quick Start
 
