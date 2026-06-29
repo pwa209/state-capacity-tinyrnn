@@ -1,0 +1,13 @@
+state_family:
+  tau: [0.7, 1.0, 1.3, 1.6, 2.0]
+  lapse: [0.00, 0.02, 0.05, 0.10, 0.20]
+  sigma: [0.00, 0.01, 0.03, 0.05, 0.10]
+  update_gain: [1.00, 0.97, 0.93, 0.88, 0.80]
+  memory_decay: [0.00, 0.05, 0.10, 0.20]
+capacity_family:
+  hidden_size: [1, 2, 3, 4, 6, 8]
+  recurrent_rank: [1, 2, 4, full]
+  memory_window: [1, 3, 5, 10, full]
+  bottleneck_width: [1, 2, 4, full]
+  recurrence: [GRU, vanilla_RNN, no_recurrence]
+

@@ -1,0 +1,4 @@
+# Placeholder lock file.
+# The revised protocol requires `uv.lock`; it will be replaced by `uv lock`
+# once dependency installation is performed inside this clean reconstruction.
+

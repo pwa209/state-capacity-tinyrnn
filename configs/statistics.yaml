@@ -1,0 +1,11 @@
+claim_strengths:
+  - strong
+  - moderate
+  - exploratory
+  - negative
+  - failed_validation
+multiple_testing: Benjamini-Hochberg within outcome families
+bootstrap_level: participant
+permutation_tests_required: true
+two_sided_tests_default: true
+

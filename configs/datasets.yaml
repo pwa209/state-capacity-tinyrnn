@@ -1,0 +1,29 @@
+main_datasets:
+  - dataset_id: ds007554
+    source: OpenNeuro
+    download_command: uvx openneuro-py@latest download --dataset=ds007554 --target-dir=data/raw/openneuro/ds007554
+    expected_subjects: null
+    included_main: true
+  - dataset_id: cog_bci
+    source: Zenodo record 6874129
+    download_command: python scripts/01_download/download_zenodo_record.py --record-id 6874129 --target-dir data/raw/cog_bci --verify true
+    expected_subjects: 29
+    included_main: true
+  - dataset_id: tu_berlin_eeg_nirs
+    source: TU Berlin simultaneous EEG-NIRS
+    download_command: python scripts/01_download/download_tu_berlin_eeg_nirs.py --target-dir data/raw/tu_berlin_eeg_nirs --verify true
+    expected_subjects: 26
+    included_main: true
+  - dataset_id: hbn_release_4
+    source: OpenNeuro ds005508
+    download_command: uvx openneuro-py@latest download --dataset=ds005508 --target-dir=data/raw/openneuro/ds005508
+    expected_subjects: 324
+    included_main: true
+diagnostic_datasets:
+  - dataset_id: sleepy_brain
+    included_main: false
+    rule: include only if command-line download works
+  - dataset_id: maus_public
+    included_main: false
+    rule: public features only; exclude manual IEEE DataPort archive from main paper
+

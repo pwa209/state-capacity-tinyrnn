@@ -1,0 +1,10 @@
+hidden_sizes: [1, 2, 3, 4, 6, 8]
+primary_recurrent_cell: GRU
+optimizer: Adam
+gradient_clip_norm: 1.0
+early_stopping: true
+splits:
+  - participant_level
+  - session_blocked
+  - odd_even_miniblock
+

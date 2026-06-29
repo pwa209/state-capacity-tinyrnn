@@ -1,0 +1,9 @@
+mode: full
+allow_pilot: false
+allow_manual_data: false
+allow_missing_external_validation: false
+require_ann_gate: true
+require_claim_audit: true
+require_source_data: true
+min_expected_subject_fraction: 0.95
+

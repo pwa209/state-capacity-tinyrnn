@@ -1,0 +1,6 @@
+formats: [png, pdf, svg]
+require_source_data: true
+require_data_dictionary: true
+require_script_used: true
+style: journal_clean_nature_family
+

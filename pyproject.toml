@@ -1,0 +1,20 @@
+[project]
+name = "state-capacity-tinyrnn"
+version = "0.1.0"
+description = "Full-run reconstruction of machine-defined state and capacity coordinates using compact recurrent neural networks."
+requires-python = ">=3.10"
+dependencies = [
+  "numpy",
+  "pandas",
+  "scipy",
+  "scikit-learn",
+  "statsmodels",
+  "matplotlib",
+  "seaborn",
+  "pyarrow",
+  "torch",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

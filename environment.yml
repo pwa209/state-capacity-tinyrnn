@@ -1,0 +1,16 @@
+name: state-capacity-tinyrnn
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - statsmodels
+  - matplotlib
+  - seaborn
+  - pyarrow
+  - pytorch
+  - pip
+

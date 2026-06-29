@@ -1,0 +1,127 @@
+features:
+  - feature_name: lapse_rate
+    feature_family: behavior_reliability
+    expected_construct: state
+    rationale_short: Trial-level failures and lapses are transient operating-state markers.
+    used_in_state_profile: true
+    used_in_capacity_profile: false
+    allowed_datasets: [cog_bci, ds007554, tu_berlin_eeg_nirs, hbn_release_4]
+  - feature_name: rt_cv
+    feature_family: response_time_variability
+    expected_construct: state
+    rationale_short: Response-time instability indexes within-session reliability.
+    used_in_state_profile: true
+    used_in_capacity_profile: false
+    allowed_datasets: [cog_bci, tu_berlin_eeg_nirs]
+  - feature_name: rt_iqr
+    feature_family: response_time_variability
+    expected_construct: state
+    rationale_short: Distributional response-time spread indexes unstable operating state.
+    used_in_state_profile: true
+    used_in_capacity_profile: false
+    allowed_datasets: [cog_bci, tu_berlin_eeg_nirs]
+  - feature_name: state_parameter_instability_z
+    feature_family: model_state_profile
+    expected_construct: state
+    rationale_short: Multiaxis session-task state profile from lapse, drift and variability components.
+    used_in_state_profile: true
+    used_in_capacity_profile: false
+    allowed_datasets: [cog_bci, ds007554, tu_berlin_eeg_nirs, hbn_release_4]
+  - feature_name: optimized_state_profile_z
+    feature_family: optimized_projection
+    expected_construct: state
+    rationale_short: Optimized state-like human projection; interpreted only after gate checks.
+    used_in_state_profile: true
+    used_in_capacity_profile: false
+    allowed_datasets: [cog_bci, ds007554, tu_berlin_eeg_nirs, hbn_release_4]
+  - feature_name: selected_hidden_size
+    feature_family: model_resource
+    expected_construct: capacity
+    rationale_short: Selected hidden size is a compact recurrent resource proxy.
+    used_in_state_profile: false
+    used_in_capacity_profile: true
+    allowed_datasets: [cog_bci, ds007554, tu_berlin_eeg_nirs, hbn_release_4]
+  - feature_name: selection_confidence
+    feature_family: model_resource
+    expected_construct: capacity
+    rationale_short: Confidence in selected model size indexes stability of the capacity estimate.
+    used_in_state_profile: false
+    used_in_capacity_profile: true
+    allowed_datasets: [cog_bci, ds007554, tu_berlin_eeg_nirs, hbn_release_4]
+  - feature_name: high_capacity_advantage
+    feature_family: model_resource
+    expected_construct: capacity
+    rationale_short: Advantage of larger recurrent models indexes capacity pressure.
+    used_in_state_profile: false
+    used_in_capacity_profile: true
+    allowed_datasets: [cog_bci, ds007554, tu_berlin_eeg_nirs, hbn_release_4]
+  - feature_name: load_robustness
+    feature_family: task_pressure
+    expected_construct: capacity
+    rationale_short: Robustness under higher task demand is the main external capacity prediction.
+    used_in_state_profile: false
+    used_in_capacity_profile: true
+    allowed_datasets: [tu_berlin_eeg_nirs, cog_bci]
+  - feature_name: capacity_parameter_resource_z
+    feature_family: capacity_profile
+    expected_construct: capacity
+    rationale_short: Multidimensional participant-level recurrent resource profile.
+    used_in_state_profile: false
+    used_in_capacity_profile: true
+    allowed_datasets: [cog_bci, ds007554, tu_berlin_eeg_nirs, hbn_release_4]
+  - feature_name: trajectory_cov_rank
+    feature_family: fitted_recurrent_geometry
+    expected_construct: control
+    rationale_short: Fitted-model geometry validation target, not an input definition for capacity.
+    used_in_state_profile: false
+    used_in_capacity_profile: false
+    allowed_datasets: [cog_bci, ds007554, tu_berlin_eeg_nirs, hbn_release_4]
+  - feature_name: trajectory_radius
+    feature_family: fitted_recurrent_geometry
+    expected_construct: control
+    rationale_short: Fitted-model geometry validation target, not a direct neural resource.
+    used_in_state_profile: false
+    used_in_capacity_profile: false
+    allowed_datasets: [cog_bci, ds007554, tu_berlin_eeg_nirs, hbn_release_4]
+  - feature_name: mean_accuracy
+    feature_family: descriptive_behavior
+    expected_construct: neutral
+    rationale_short: Descriptive outcome and baseline predictor, not construct-defining by itself.
+    used_in_state_profile: false
+    used_in_capacity_profile: false
+    allowed_datasets: [cog_bci, ds007554, tu_berlin_eeg_nirs, hbn_release_4]
+  - feature_name: mean_rt
+    feature_family: descriptive_behavior
+    expected_construct: neutral
+    rationale_short: Descriptive response-time baseline, not construct-defining by itself.
+    used_in_state_profile: false
+    used_in_capacity_profile: false
+    allowed_datasets: [cog_bci, tu_berlin_eeg_nirs]
+  - feature_name: eeg_theta_alpha_ratio
+    feature_family: physiology_eeg
+    expected_construct: neutral
+    rationale_short: Physiological alignment feature; not sufficient for direct neural-coordinate claims.
+    used_in_state_profile: false
+    used_in_capacity_profile: false
+    allowed_datasets: [cog_bci, ds007554, tu_berlin_eeg_nirs]
+  - feature_name: eeg_spectral_entropy
+    feature_family: physiology_eeg
+    expected_construct: neutral
+    rationale_short: Physiological alignment feature; interpreted as exploratory unless controls survive.
+    used_in_state_profile: false
+    used_in_capacity_profile: false
+    allowed_datasets: [cog_bci, ds007554, tu_berlin_eeg_nirs]
+  - feature_name: ecg_hr_mean
+    feature_family: physiology_ecg
+    expected_construct: neutral
+    rationale_short: Autonomic physiological alignment feature.
+    used_in_state_profile: false
+    used_in_capacity_profile: false
+    allowed_datasets: [ds007554]
+  - feature_name: fnirs_hbo_mean
+    feature_family: physiology_fnirs
+    expected_construct: neutral
+    rationale_short: Hemodynamic physiological alignment feature.
+    used_in_state_profile: false
+    used_in_capacity_profile: false
+    allowed_datasets: [ds007554, tu_berlin_eeg_nirs]

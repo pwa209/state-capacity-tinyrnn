@@ -1,0 +1,23 @@
+eeg_features:
+  - delta_power
+  - theta_power
+  - alpha_power
+  - beta_power
+  - theta_alpha_ratio
+  - frontal_midline_theta_if_channels_available
+  - spectral_entropy
+  - aperiodic_slope
+  - trialwise_variability
+fnirs_features:
+  - HbO_mean
+  - HbR_mean
+  - HbO_slope
+  - HbR_slope
+  - prefrontal_task_response
+ecg_features:
+  - heart_rate
+  - rmssd
+  - sdnn
+  - pnn50
+  - heart_rate_slope
+

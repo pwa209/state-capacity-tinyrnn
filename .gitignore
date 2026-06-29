@@ -1,0 +1,17 @@
+# Local environments and caches
+        .venv/
+        __pycache__/
+        *.py[cod]
+        .pytest_cache/
+        .mypy_cache/
+        .ruff_cache/
+        node_modules/
+
+        # Raw and generated large data should not be committed
+        data/raw/
+        data/interim/
+        outputs/archive_previous_run/
+        outputs/model_checkpoints/
+        outputs/release_packages/
+        *.part
+        *.tmp

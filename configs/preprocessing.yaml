@@ -1,0 +1,21 @@
+event_schema:
+  - dataset
+  - subject
+  - session
+  - task
+  - block
+  - trial_index
+  - timestamp
+  - condition
+  - load_level
+  - stimulus_id
+  - target
+  - response
+  - correct
+  - rt
+  - previous_response
+  - previous_correct
+  - time_on_task
+  - available_response_set
+leakage_rule: current-trial correctness, future responses, and aggregate participant performance are forbidden model inputs
+
