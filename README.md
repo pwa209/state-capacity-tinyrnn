@@ -13,7 +13,7 @@ This repository contains the reproducibility code for the study **Machine-define
 
 ## What Is Not Stored Here
 
-Raw public datasets are intentionally not committed. They are large and should be downloaded from the original providers listed in `DATA_AVAILABILITY.md`. Derived tables and source-data files should be deposited separately on Zenodo or OSF.
+Raw public datasets are intentionally not committed. They are large and should be downloaded from the original providers listed in `DATA_AVAILABILITY.md`. Derived tables and source-data files are deposited on Zenodo at https://zenodo.org/records/21028379, DOI 10.5281/zenodo.21028379.
 
 ## Repository Layout
 
